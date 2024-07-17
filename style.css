@@ -1,0 +1,32 @@
+body{
+    font-family:monospace;
+}
+
+.container-header{
+    display: flex;
+    background-color: #445162;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.main-text{
+    margin-left: 4rem;
+}
+
+.main-text-heading{
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.properties{
+    font-size: 1.30rem;
+}
+
+
+.square {
+    width: 35rem;
+    height: 16rem;
+    background-color: #ffffff;
+    margin: 4rem;
+    
+}
