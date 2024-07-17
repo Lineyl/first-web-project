@@ -2,31 +2,56 @@ body{
     font-family:monospace;
 }
 
-.container-header{
+.header-container{
     display: flex;
     background-color: #445162;
     color: #ffffff;
     justify-content: space-between;
 }
 
-.main-text{
+.header-main-text{
     margin-left: 4rem;
 }
 
-.main-text-heading{
+.header-main-text-heading{
     font-size: 4.5rem;
     margin-bottom: 1.5rem;
 }
 
 .properties{
-    font-size: 1.30rem;
+    font-size: 1.3rem;
 }
 
 
-.square {
+.header-square {
     width: 35rem;
     height: 16rem;
     background-color: #ffffff;
     margin: 4rem;
     
+}
+
+.main-conteiner-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-main-text{
+    width: 45rem;
+    height: 16rem;
+    margin-left: 4rem;
+    font-size: 1.1rem;
+}
+
+.main-main-text-heading{
+    font-size: 2.60rem;
+    color: #445162;
+    margin-bottom: 2rem;
+}
+
+.main-square{
+    width: 30rem;
+    height: 16rem;
+    background-color: #445162;
+    margin: 4rem;
 }
