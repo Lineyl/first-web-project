@@ -14,7 +14,7 @@ p {
 .main-text-heading{
     font-size: 2.50rem;
     color: #445162;
-    padding-top: 2rem;
+    padding-top: 3rem;
     margin-top: 0;
     font-weight: 400;
 }
@@ -185,6 +185,7 @@ p {
 
 .main-rev-left-column{
     margin-left: 4rem;
+    margin-bottom: 2rem;
 }
 
 .main-rev-right-column{
@@ -203,9 +204,7 @@ p {
 .triangle{
     border: 1rem solid transparent; 
     border-right: 1rem solid  #ebebeb;
-    /* margin-left: 1rem; */
     margin-top: 1.5rem;
-    /* border-right: 1rem solid  #445162; */
 }
 
 .main-rev-text{
@@ -223,4 +222,197 @@ p {
 
 .rev-name{
     color: #b9b9b9;
+}
+
+ol{
+    margin: 0;
+}
+
+/* li{
+    line-height: 1.5;
+} */
+
+.buy-heading{
+    text-align: center;
+}
+
+.price-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 4rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.price-card{
+    background-color: #445162;
+    border-radius: 0.4rem;
+}
+
+.price-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+#price{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #445162;
+    background-color: white;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.price-list{
+    font-weight: 100;
+    margin-top: 1rem;
+    line-height: 1.5;
+    margin-right: 2.5rem;
+    padding-left: 1.5rem;
+    list-style-position: inside;
+}
+
+.buy-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#buy-btn{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #445162;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: white;
+    border: 0;
+    border-radius: 0.5rem;
+    min-width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.main-conteiner-six{
+    background-color: #445162;
+}
+
+.contacts-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contacts-heading{
+    color: white;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+    border: 0;
+    border-radius: 0.2rem;
+    font-size: 1.25rem;
+}
+
+input::placeholder{
+    color: #445162;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.input-mes{
+    line-height: 12rem;
+}
+
+.send-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#send-btn{
+    margin-bottom: 4rem;
+    color: #445162;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: white;
+    border: 0;
+    border-radius: 0.5rem;
+    min-width: 10rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.contact-info-container{
+    margin-bottom: 2rem;
+}
+
+.contacts-left-column{
+    width: 35rem;
+    margin-right: 4rem;
+}
+
+.contact{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact-img{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.social-btn-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-btn{
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 50%;
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter-btn{
+    background-image: url('/img/social/twitter.png');
+}
+
+.facebook-btn{
+    background-image: url('/img/social/facebook.png');
+}
+
+.linkedin-btn{
+    background-image: url('/img/social/linkedin.png');
+}
+
+.google-btn{
+    background-image: url('/img/social/google.png');
+}
+
+.youtube-btn{
+    background-image: url('/img/social/youtube.png');
+}
+
+footer{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    font-size: 0.9rem;
 }
